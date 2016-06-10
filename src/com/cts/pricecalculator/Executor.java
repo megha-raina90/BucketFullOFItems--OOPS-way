@@ -19,7 +19,7 @@ public class Executor {
 		banana.setQuantity(bananaQuantity);
 		PriceCalculator priceCal = new PriceCalculator();
 		priceCal.calculateBasketPrice(apple, banana);
-		//System.out.println(priceCal.calculateBucketPrice(apple, banana));
+		System.out.println(priceCal.calculateBasketPrice(apple, banana));
 
 	}
 }
