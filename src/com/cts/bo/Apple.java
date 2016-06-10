@@ -1,19 +1,18 @@
-package com.cts.bucket;
+package com.cts.bo;
 
-public class Banana {
-
+public class Apple {
 	
 	private int quantity;
-	private final int bPrice=5;
-	public  int getQuantity() {
+	private  final int price=10;
+	
+	public int getQuantity() {
 		return quantity;
 	}
 	public void setQuantity(int quantity) {
 		this.quantity = quantity;
 	}
 	public int getPrice() {
-		return bPrice;
+		return price;
 	}
-	
 	
 }
